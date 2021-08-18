@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(12, 12, 12);
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+
+  padding: 40px;
+}
+
+.accordion__button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 16px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accordion__content {
+  margin-top: 10px;
+  overflow: hidden;
+
+  transition: 1s ease;
+}
